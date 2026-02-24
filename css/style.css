@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.karla-font {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-semibold {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: #0f1a26;
+  margin: 50px;
+  font-family: "Karla", sans-serif;
+
+  background-image: url(../images/anywhere-workers.gif);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 700px;
+}
+
+h1 {
+  font-size: 120px;
+  color: #fff;
+  line-height: 130px;
+  margin-bottom: 50px;
+  font-family: "Spectral", serif;
+}
+
+p {
+  font-size: 20px;
+  color: #c3d0df;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.read-more {
+  color: #f33;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+a {
+  background-color: #f33;
+  padding: 20px 30px;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
